@@ -26,7 +26,7 @@ export function Hero() {
           <motion.img 
             src={logoImage}
             alt="Ren Thai Massage"
-            className="w-full max-w-5xl mx-auto mb-16 invert brightness-0 sm:invert-0 sm:brightness-100"
+            className="w-[80%] max-w-[300px] md:max-w-5xl mx-auto mb-12 mt-20 md:mt-0 invert brightness-0 sm:invert-0 sm:brightness-100"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
