@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import massageImage from 'figma:asset/4c290200146994ab6d9c4f40b63617186b8f7042.png';
-import staffImage from 'figma:asset/1f2a396092e8a50194aef64d979aa244e5410d0b.png';
+import massageImage from '@/assets/4c290200146994ab6d9c4f40b63617186b8f7042.png';
+import staffImage from '@/assets/1f2a396092e8a50194aef64d979aa244e5410d0b.png';
 
 const services = [
   { id: 'thai60', name: 'タイ古式マッサージ', thai: 'นวดไทย', price: 5500, duration: 60 },

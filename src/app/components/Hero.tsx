@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import heroImage from 'figma:asset/9560d1b888ac43900e2c0d9cd3817315ceddc6e3.png';
-import logoImage from 'figma:asset/d53807f633fe067da90f84356fe69e82d4cf3996.png';
+import heroImage from '@/assets/9560d1b888ac43900e2c0d9cd3817315ceddc6e3.png';
+import logoImage from '@/assets/d53807f633fe067da90f84356fe69e82d4cf3996.png';
 
 export function Hero() {
   return (
