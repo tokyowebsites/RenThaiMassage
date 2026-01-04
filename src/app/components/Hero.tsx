@@ -26,21 +26,21 @@ export function Hero() {
           <motion.img 
             src={logoImage}
             alt="Ren Thai Massage"
-            className="w-[80%] max-w-[300px] md:max-w-5xl mx-auto mb-12 mt-20 md:mt-0 invert brightness-0 sm:invert-0 sm:brightness-100"
+            className="w-[60%] max-w-[240px] md:max-w-3xl lg:max-w-5xl mx-auto mb-8 mt-24 md:mt-0 invert brightness-0 sm:invert-0 sm:brightness-100"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1 }}
           />
-          <div className="w-32 h-px bg-[#D4B896] mx-auto mb-10" />
-          <p className="text-2xl md:text-3xl text-white/95 mb-16 tracking-wide" style={{ fontFamily: "'Noto Serif JP', serif" }}>
+          <div className="w-24 md:w-32 h-px bg-[#D4B896] mx-auto mb-8 md:mb-10" />
+          <p className="text-lg md:text-3xl text-white/95 mb-10 md:mb-16 tracking-wide px-4" style={{ fontFamily: "'Noto Serif JP', serif" }}>
             心と体を癒す、本格タイ古式マッサージ
           </p>
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center items-center">
             <motion.a
               href="tel:070-1614-1177"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-10 py-4 bg-white text-[#4A4543] rounded-full hover:bg-[#F5F1ED] transition-all duration-300 shadow-xl text-lg"
+              className="w-64 sm:w-auto px-6 py-3 md:px-10 md:py-4 bg-white text-[#4A4543] rounded-full hover:bg-[#F5F1ED] transition-all duration-300 shadow-xl text-base md:text-lg font-medium"
             >
               お電話でご予約
             </motion.a>
@@ -48,7 +48,7 @@ export function Hero() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-10 py-4 bg-transparent border-2 border-white text-white rounded-full hover:bg-white hover:text-[#4A4543] transition-all duration-300 text-lg"
+              className="w-64 sm:w-auto px-6 py-3 md:px-10 md:py-4 bg-transparent border-2 border-white text-white rounded-full hover:bg-white hover:text-[#4A4543] transition-all duration-300 text-base md:text-lg font-medium"
             >
               WEB予約
             </motion.button>
