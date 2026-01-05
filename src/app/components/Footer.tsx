@@ -43,13 +43,23 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/20 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
             <p className="text-white/60 text-sm">
               〒507-0038 岐阜県多治見市白山町3丁目-13−1 白山マンション2階B
             </p>
-            <p className="text-white/60 text-sm">
-              © 2025 Ren Thai Massage. All rights reserved.
-            </p>
+            <div className="flex flex-col items-center md:items-end gap-1">
+              <p className="text-white/60 text-sm">
+                © 2025 Ren Thai Massage. All rights reserved.
+              </p>
+              <a 
+                href="https://tokyowebsites.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-white/30 text-xs hover:text-white/50 transition-colors duration-300"
+              >
+                Made by Tokyo Websites
+              </a>
+            </div>
           </div>
         </div>
       </div>
